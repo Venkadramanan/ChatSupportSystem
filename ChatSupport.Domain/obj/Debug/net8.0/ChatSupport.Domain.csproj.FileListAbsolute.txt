@@ -1,0 +1,11 @@
+C:\Users\venka\source\repos\ChatSupport.API\ChatSupport.Domain\bin\Debug\net8.0\ChatSupport.Domain.deps.json
+C:\Users\venka\source\repos\ChatSupport.API\ChatSupport.Domain\bin\Debug\net8.0\ChatSupport.Domain.dll
+C:\Users\venka\source\repos\ChatSupport.API\ChatSupport.Domain\bin\Debug\net8.0\ChatSupport.Domain.pdb
+C:\Users\venka\source\repos\ChatSupport.API\ChatSupport.Domain\obj\Debug\net8.0\ChatSupport.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\venka\source\repos\ChatSupport.API\ChatSupport.Domain\obj\Debug\net8.0\ChatSupport.Domain.AssemblyInfoInputs.cache
+C:\Users\venka\source\repos\ChatSupport.API\ChatSupport.Domain\obj\Debug\net8.0\ChatSupport.Domain.AssemblyInfo.cs
+C:\Users\venka\source\repos\ChatSupport.API\ChatSupport.Domain\obj\Debug\net8.0\ChatSupport.Domain.csproj.CoreCompileInputs.cache
+C:\Users\venka\source\repos\ChatSupport.API\ChatSupport.Domain\obj\Debug\net8.0\ChatSupport.Domain.dll
+C:\Users\venka\source\repos\ChatSupport.API\ChatSupport.Domain\obj\Debug\net8.0\refint\ChatSupport.Domain.dll
+C:\Users\venka\source\repos\ChatSupport.API\ChatSupport.Domain\obj\Debug\net8.0\ChatSupport.Domain.pdb
+C:\Users\venka\source\repos\ChatSupport.API\ChatSupport.Domain\obj\Debug\net8.0\ref\ChatSupport.Domain.dll

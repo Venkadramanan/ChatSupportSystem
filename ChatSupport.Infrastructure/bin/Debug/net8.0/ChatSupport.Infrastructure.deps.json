@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ChatSupport.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ChatSupport.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ChatSupport.Infrastructure.dll": {}
+        }
+      },
+      "ChatSupport.Domain/1.0.0": {
+        "runtime": {
+          "ChatSupport.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChatSupport.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChatSupport.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
