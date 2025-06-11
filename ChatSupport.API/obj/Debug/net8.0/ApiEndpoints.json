@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "ChatSupport.API.Controllers.ChatController",
+    "Method": "GetActiveSessions",
+    "RelativePath": "api/Chat/active-sessions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatSupport.API.Controllers.ChatController",
+    "Method": "GetAgentLoad",
+    "RelativePath": "api/Chat/agent-load",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatSupport.API.Controllers.ChatController",
     "Method": "DeQueue",
     "RelativePath": "api/Chat/dequeue",
     "HttpMethod": "GET",
@@ -33,6 +53,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ChatSupport.API.Controllers.ChatController",
+    "Method": "RemoveSession",
+    "RelativePath": "api/Chat/remove-session/{sessionId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

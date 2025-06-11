@@ -10,4 +10,8 @@
     <ProjectReference Include="..\ChatSupport.Domain\ChatSupport.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Factories\" />
+  </ItemGroup>
+
 </Project>

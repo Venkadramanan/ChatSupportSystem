@@ -1,35 +1,50 @@
-using ChatSupport.Application.Interfaces;
+﻿using ChatSupport.Application.Interfaces;
 using ChatSupport.Application.Services;
 using ChatSupport.Domain.Models;
+using ChatSupport.Infrastructure.Background;
 using ChatSupport.Infrastructure.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Setup teams
-var teamA = StaticTeams.TeamA;
-var teamB = StaticTeams.TeamB;
-var teamC = StaticTeams.TeamC;
-var overflowTeam = StaticTeams.Overflow;
+// ------------------------------
+// Setup Teams and Office Hour
+// ------------------------------
+var primaryTeams = new List<Team>
+{
+    //StaticTeams.TeamA,
+    StaticTeams.TeamB
+    //StaticTeams.TeamC
+};
 
-// Business rule: define office hours
+var overflowTeam = StaticTeams.Overflow;
 var isOfficeHours = true;
 
-// Initialize services manually
-var primaryTeams = new List<Team> { teamA, teamB, teamC };
-var assignmentService = new AssignmentService(primaryTeams, overflowTeam);
-var queueService = new QueueService(primaryTeams, overflowTeam, isOfficeHours, assignmentService);
+// ------------------------------
+// Register Domain Services
+// ------------------------------
+builder.Services.AddSingleton<List<Team>>(primaryTeams);
+builder.Services.AddSingleton<Team>(overflowTeam);
+builder.Services.AddSingleton<IAssignmentService, AssignmentService>();
+builder.Services.AddSingleton<IQueueService, QueueService>();
 
-// Register as singletons
-builder.Services.AddSingleton<IAssignmentService>(assignmentService);
-builder.Services.AddSingleton<IQueueService>(queueService);
 
-// Add controllers + Swagger
+// ------------------------------
+// Hosted Background Worker
+// ------------------------------
+builder.Services.AddHostedService<PollingMonitorService>();
+
+// ------------------------------
+// Controllers + Swagger
+// ------------------------------
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+// ------------------------------
+// Middleware
+// ------------------------------
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

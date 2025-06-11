@@ -1,17 +1,82 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj": {}
+    "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\ChatSupport.Domain.csproj": {
+    "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\ChatSupport.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
-        "projectName": "ChatSupport.Domain",
-        "projectPath": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\ChatSupport.Application.csproj",
+        "projectName": "ChatSupport.Application",
+        "projectPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\ChatSupport.Application.csproj",
         "packagesPath": "C:\\Users\\venka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\obj\\",
+        "outputPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\venka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj": {
+                "projectPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
+        "projectName": "ChatSupport.Domain",
+        "projectPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
+        "packagesPath": "C:\\Users\\venka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\venka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj": {
+    "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj",
         "projectName": "ChatSupport.Infrastructure",
-        "projectPath": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\venka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\venka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,8 +155,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\ChatSupport.Domain.csproj": {
-                "projectPath": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\ChatSupport.Domain.csproj"
+              "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\ChatSupport.Application.csproj": {
+                "projectPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\ChatSupport.Application.csproj"
+              },
+              "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj": {
+                "projectPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj"
               }
             }
           }
@@ -110,6 +178,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

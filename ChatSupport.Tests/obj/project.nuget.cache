@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8vZ2ztgsK60=",
+  "dgSpecHash": "RuAEnNN0uPE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Tests\\ChatSupport.Tests.csproj",
+  "projectFilePath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Tests\\ChatSupport.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\venka\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\venka\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

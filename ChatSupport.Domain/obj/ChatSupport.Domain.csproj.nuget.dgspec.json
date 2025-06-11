@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\ChatSupport.Domain.csproj": {}
+    "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\ChatSupport.Domain.csproj": {
+    "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
         "projectName": "ChatSupport.Domain",
-        "projectPath": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
+        "projectPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
         "packagesPath": "C:\\Users\\venka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\obj\\",
+        "outputPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\venka\\AppData\\Roaming\\NuGet\\NuGet.Config",

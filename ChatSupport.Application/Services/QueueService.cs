@@ -12,58 +12,33 @@ namespace ChatSupport.Application.Services
         private readonly Dictionary<Guid, ChatSession> _activeSessions = new();
         private readonly Dictionary<Guid, DateTime> _pollTimestamps = new();
 
-        private readonly IAssignmentService _assignmentService;
-        private readonly List<Team> _primaryTeams;
-        private readonly Team _overflowTeam;
-        private readonly bool _isOfficeHours;
-
-        public QueueService(List<Team> primaryTeams, Team overflowTeam, bool isOfficeHours, IAssignmentService assignmentService)
-        {
-            _primaryTeams = primaryTeams;
-            _overflowTeam = overflowTeam;
-            _isOfficeHours = isOfficeHours;
-            _assignmentService = assignmentService;
-        }
-
         public bool TryEnqueue(ChatSession session)
         {
-            var assignedAgent = _assignmentService.AssignAgent(session);
-
-            if (assignedAgent != null)
-            {
-                _activeSessions[session.Id] = session;
-                Console.WriteLine($"✅ Chat assigned to {assignedAgent.Name} (Role: {assignedAgent.Role}) | Session ID: {session.Id} | Customer: {session.CustomerName}");
-                return true;
-            }
-
-            session.IsActive = true;
             _chatQueue.Enqueue(session);
-            Console.WriteLine($"📥 Chat queued for role: {session.RequestedRole} | Session ID: {session.Id} | Customer: {session.CustomerName}");
-            return false;
-        }
+            session.IsActive = true;
 
+            Console.WriteLine($"Chat enqueued | Session ID: {session.Id} | Customer: {session.CustomerName}");
+            return true;
+        }
 
         public ChatSession? Dequeue()
         {
             if (_chatQueue.Count == 0)
             {
-                Console.WriteLine($"📭 Dequeue attempted but queue is empty at {DateTime.UtcNow:HH:mm:ss}");
+                Console.WriteLine("Queue is empty.");
                 return null;
             }
 
             var session = _chatQueue.Dequeue();
-            session.IsActive = false;
-            session.LastPolledAt = DateTime.UtcNow;
-
-            Console.WriteLine($"📤 Chat dequeued | Session ID: {session.Id} | Customer: {session.CustomerName} | Requested Role: {session.RequestedRole} | Time: {DateTime.UtcNow:HH:mm:ss}");
-
+            Console.WriteLine($"Dequeued session for assignment | Session ID: {session.Id} | Customer: {session.CustomerName}");
             return session;
         }
 
-
-        public int QueueLength => _chatQueue.Count;
-
-        public IReadOnlyCollection<ChatSession> GetAllSessions() => _chatQueue.ToArray();
+        public void RegisterActiveSession(ChatSession session)
+        {
+            _activeSessions[session.Id] = session;
+            Console.WriteLine($"Assigned session | Agent: {session.AssignedAgentName} | Session ID: {session.Id}");
+        }
 
         public bool UpdatePolling(Guid sessionId)
         {
@@ -71,22 +46,58 @@ namespace ChatSupport.Application.Services
             {
                 session.LastPolledAt = DateTime.UtcNow;
                 _pollTimestamps[sessionId] = session.LastPolledAt;
-                Console.WriteLine($"🔄 Poll received for Session ID: {sessionId} | LastPolledAt updated to {session.LastPolledAt}");
+                Console.WriteLine($" Poll updated | Session ID: {sessionId}");
                 return true;
             }
 
-            Console.WriteLine($"⚠️ Poll failed: Session ID {sessionId} not found or inactive");
+            Console.WriteLine($" Poll failed | Session ID: {sessionId} not found");
             return false;
         }
-
-
-        public IReadOnlyDictionary<Guid, ChatSession> ActiveSessions => _activeSessions;
 
         public Dictionary<string, int> GetQueueStatus()
         {
             return _chatQueue
-                .GroupBy(s => s.RequestedRole ?? "Unknown") // Use null-coalescing if RequestedRole might be null
+                .GroupBy(s => s.RequestedRole ?? "Unknown")
                 .ToDictionary(g => g.Key, g => g.Count());
         }
+
+        public IReadOnlyDictionary<Guid, ChatSession> ActiveSessions => _activeSessions;
+
+        public IReadOnlyCollection<ChatSession> GetActiveSessions()
+        {
+            return _activeSessions.Values;
+        }
+
+        public ChatSession? RemoveSession(Guid sessionId)
+        {
+            if (_activeSessions.TryGetValue(sessionId, out var session))
+            {
+                _activeSessions.Remove(sessionId);
+                Console.WriteLine($" Session {sessionId} removed.");
+                return session;
+            }
+
+            return null;
+        }
+
+
+
+        public bool RemoveInactiveSessions(TimeSpan timeout)
+        {
+            var threshold = DateTime.UtcNow - timeout;
+            var toRemove = _activeSessions
+                .Where(kvp => kvp.Value.LastPolledAt < threshold)
+                .Select(kvp => kvp.Key)
+                .ToList();
+
+            foreach (var id in toRemove)
+            {
+                _activeSessions.Remove(id);
+                Console.WriteLine($"Session {id} removed due to inactivity.");
+            }
+
+            return toRemove.Any();
+        }
+
     }
 }

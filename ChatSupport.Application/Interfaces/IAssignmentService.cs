@@ -9,6 +9,9 @@ namespace ChatSupport.Application.Interfaces
 {
     public interface IAssignmentService
     {
-        Agent? AssignAgent(ChatSession session);
+        Agent? AssignAgent(ChatSession session, bool isOfficeHours);
+        List<Agent> GetAllAgents();
+        bool RemoveSessionAndReleaseAgent(Guid sessionId);
+
     }
 }

@@ -10,10 +10,10 @@ namespace ChatSupport.Infrastructure.Configuration
             Name = "Team A",
             Agents = new List<Agent>
             {
-                new Agent { Name = "Alice", Role = Roles.TeamLead },
-                new Agent { Name = "Bob", Role = Roles.Mid },
-                new Agent { Name = "Charlie", Role = Roles.Mid },
-                new Agent { Name = "Dave", Role = Roles.Junior }
+                new Agent { Name = "Team A Lead", Role = Roles.TeamLead },
+                new Agent { Name = "Team A Mid 1", Role = Roles.Mid },
+                new Agent { Name = "Team A Mid 2", Role = Roles.Mid },
+                new Agent { Name = "Team A Junior", Role = Roles.Junior }
             }
         };
 
@@ -22,10 +22,10 @@ namespace ChatSupport.Infrastructure.Configuration
             Name = "Team B",
             Agents = new List<Agent>
             {
-                new Agent { Name = "Eve", Role = Roles.Senior },
-                new Agent { Name = "Frank", Role = Roles.Mid },
-                new Agent { Name = "Grace", Role = Roles.Junior },
-                new Agent { Name = "Heidi", Role = Roles.Junior }
+                //new Agent { Name = "Team B Senior", Role = Roles.Senior },
+                //new Agent { Name = "Team B Mid", Role = Roles.Mid },
+                new Agent { Name = "Team B Junior 1", Role = Roles.Junior },
+                new Agent { Name = "Team B Junior 2", Role = Roles.Junior }
             }
         };
 
@@ -34,8 +34,8 @@ namespace ChatSupport.Infrastructure.Configuration
             Name = "Team C (Night)",
             Agents = new List<Agent>
             {
-                new Agent { Name = "Ivan", Role = Roles.Mid },
-                new Agent { Name = "Judy", Role = Roles.Mid }
+                new Agent { Name = "Team C Mid 1", Role = Roles.Mid },
+                new Agent { Name = "Team C Mid 2", Role = Roles.Mid }
             }
         };
 
@@ -45,12 +45,12 @@ namespace ChatSupport.Infrastructure.Configuration
             IsOverflow = true,
             Agents = new List<Agent>
             {
-                new Agent { Name = "Kenny", Role = Roles.Junior },
-                new Agent { Name = "Liam", Role = Roles.Junior },
-                new Agent { Name = "Mallory", Role = Roles.Junior },
-                new Agent { Name = "Niaj", Role = Roles.Junior },
-                new Agent { Name = "Olivia", Role = Roles.Junior },
-                new Agent { Name = "Peggy", Role = Roles.Junior }
+                new Agent { Name = "OFT 1", Role = Roles.Junior },
+                //new Agent { Name = "OFT 2", Role = Roles.Junior },
+                //new Agent { Name = "OFT 3", Role = Roles.Junior },
+                //new Agent { Name = "OFT 4", Role = Roles.Junior },
+                //new Agent { Name = "OFT 5", Role = Roles.Junior },
+                //new Agent { Name = "OFT 6", Role = Roles.Junior }
             }
         };
     }

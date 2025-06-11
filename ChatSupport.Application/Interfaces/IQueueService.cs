@@ -11,10 +11,14 @@ namespace ChatSupport.Application.Interfaces
     {
         bool TryEnqueue(ChatSession session);
         ChatSession? Dequeue();
-        int QueueLength { get; }
-        IReadOnlyCollection<ChatSession> GetAllSessions();
+        IReadOnlyCollection<ChatSession> GetActiveSessions();
+
         bool UpdatePolling(Guid sessionId);
         Dictionary<string, int> GetQueueStatus();
+        void RegisterActiveSession(ChatSession session);
+        ChatSession? RemoveSession(Guid sessionId);
+        bool RemoveInactiveSessions(TimeSpan timeout);
+        IReadOnlyDictionary<Guid, ChatSession> ActiveSessions { get; }
 
 
     }

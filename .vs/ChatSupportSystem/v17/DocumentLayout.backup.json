@@ -1,69 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\",
+  "WorkspaceRootPath": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04AA72B2-CB0B-40B5-910D-E00F297448A3}|ChatSupport.API\\ChatSupport.API.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04AA72B2-CB0B-40B5-910D-E00F297448A3}|ChatSupport.API\\ChatSupport.API.csproj|solutionrelative:chatsupport.api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.application\\interfaces\\iqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|solutionrelative:chatsupport.application\\interfaces\\iqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.application\\services\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|solutionrelative:chatsupport.application\\services\\queueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04AA72B2-CB0B-40B5-910D-E00F297448A3}|ChatSupport.API\\ChatSupport.API.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04AA72B2-CB0B-40B5-910D-E00F297448A3}|ChatSupport.API\\ChatSupport.API.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04AA72B2-CB0B-40B5-910D-E00F297448A3}|ChatSupport.API\\ChatSupport.API.csproj|solutionrelative:chatsupport.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.application\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|solutionrelative:chatsupport.application\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.domain\\models\\chatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|solutionrelative:chatsupport.domain\\models\\chatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.application\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|solutionrelative:chatsupport.application\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3797C82-5243-4C24-9F66-53A9192219E1}|ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.infrastructure\\configuration\\staticteams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3797C82-5243-4C24-9F66-53A9192219E1}|ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.infrastructure\\configuration\\staticteams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3797C82-5243-4C24-9F66-53A9192219E1}|ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj|solutionrelative:chatsupport.infrastructure\\configuration\\staticteams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.domain\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04AA72B2-CB0B-40B5-910D-E00F297448A3}|ChatSupport.API\\ChatSupport.API.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04AA72B2-CB0B-40B5-910D-E00F297448A3}|ChatSupport.API\\ChatSupport.API.csproj|solutionrelative:chatsupport.api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.application\\interfaces\\iqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|solutionrelative:chatsupport.application\\interfaces\\iqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.application\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|solutionrelative:chatsupport.application\\services\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.domain\\models\\chatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|solutionrelative:chatsupport.domain\\models\\chatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.application\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|solutionrelative:chatsupport.application\\interfaces\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.domain\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|solutionrelative:chatsupport.domain\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.domain\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.domain\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|solutionrelative:chatsupport.domain\\models\\agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.application\\factories\\teamfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.application\\factories\\teamfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57D0C899-F3BA-4668-8604-87986EED9038}|ChatSupport.Application\\ChatSupport.Application.csproj|solutionrelative:chatsupport.application\\factories\\teamfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3797C82-5243-4C24-9F66-53A9192219E1}|ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E3797C82-5243-4C24-9F66-53A9192219E1}|ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3797C82-5243-4C24-9F66-53A9192219E1}|ChatSupport.Infrastructure\\ChatSupport.Infrastructure.csproj|solutionrelative:chatsupport.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04AA72B2-CB0B-40B5-910D-E00F297448A3}|ChatSupport.API\\ChatSupport.API.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.api\\models\\startchatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04AA72B2-CB0B-40B5-910D-E00F297448A3}|ChatSupport.API\\ChatSupport.API.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.api\\models\\startchatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04AA72B2-CB0B-40B5-910D-E00F297448A3}|ChatSupport.API\\ChatSupport.API.csproj|solutionrelative:chatsupport.api\\models\\startchatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA80A7ED-A35D-4146-8567-C6F2D5DDAED0}|ChatSupport.Tests\\ChatSupport.Tests.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.tests\\queueservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA80A7ED-A35D-4146-8567-C6F2D5DDAED0}|ChatSupport.Tests\\ChatSupport.Tests.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.tests\\queueservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA80A7ED-A35D-4146-8567-C6F2D5DDAED0}|ChatSupport.Tests\\ChatSupport.Tests.csproj|solutionrelative:chatsupport.tests\\queueservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.domain\\chatsupport.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.domain\\chatsupport.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|solutionrelative:chatsupport.domain\\chatsupport.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|c:\\users\\venka\\source\\repos\\chatsupport.api\\chatsupport.domain\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|c:\\users\\venka\\onedrive\\desktop\\moneybase\\chatsupportsystem\\chatsupport.domain\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B484B42-8B9A-49DB-8FCF-B8747E88F445}|ChatSupport.Domain\\ChatSupport.Domain.csproj|solutionrelative:chatsupport.domain\\constants\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -74,54 +70,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 173,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "StaticTeams.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Infrastructure\\Configuration\\StaticTeams.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Infrastructure\\Configuration\\StaticTeams.cs",
               "RelativeDocumentMoniker": "ChatSupport.Infrastructure\\Configuration\\StaticTeams.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Infrastructure\\Configuration\\StaticTeams.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Infrastructure\\Configuration\\StaticTeams.cs",
               "RelativeToolTip": "ChatSupport.Infrastructure\\Configuration\\StaticTeams.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T18:19:40.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T18:19:40.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Infrastructure\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Infrastructure\\Class1.cs",
               "RelativeDocumentMoniker": "ChatSupport.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Infrastructure\\Class1.cs",
               "RelativeToolTip": "ChatSupport.Infrastructure\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T18:19:02.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T18:19:02.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.API\\Program.cs",
               "RelativeDocumentMoniker": "ChatSupport.API\\Program.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.API\\Program.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.API\\Program.cs",
               "RelativeToolTip": "ChatSupport.API\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBYAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T18:17:19.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "StartChatRequest.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.API\\Models\\StartChatRequest.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.API\\Models\\StartChatRequest.cs",
               "RelativeDocumentMoniker": "ChatSupport.API\\Models\\StartChatRequest.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.API\\Models\\StartChatRequest.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.API\\Models\\StartChatRequest.cs",
               "RelativeToolTip": "ChatSupport.API\\Models\\StartChatRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -129,63 +123,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.API\\Controllers\\ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.API\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "ChatSupport.API\\Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.API\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.API\\Controllers\\ChatController.cs",
               "RelativeToolTip": "ChatSupport.API\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAADwvzkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T17:41:01.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T17:41:01.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "TeamFactory.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Application\\Factories\\TeamFactory.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\Factories\\TeamFactory.cs",
               "RelativeDocumentMoniker": "ChatSupport.Application\\Factories\\TeamFactory.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Application\\Factories\\TeamFactory.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\Factories\\TeamFactory.cs",
               "RelativeToolTip": "ChatSupport.Application\\Factories\\TeamFactory.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwDAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T17:38:00.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T17:38:00.98Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AssignmentService.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Application\\Services\\AssignmentService.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\Services\\AssignmentService.cs",
               "RelativeDocumentMoniker": "ChatSupport.Application\\Services\\AssignmentService.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Application\\Services\\AssignmentService.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\Services\\AssignmentService.cs",
               "RelativeToolTip": "ChatSupport.Application\\Services\\AssignmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T17:10:44.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T17:10:44.346Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "IAssignmentService.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Application\\Interfaces\\IAssignmentService.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\Interfaces\\IAssignmentService.cs",
               "RelativeDocumentMoniker": "ChatSupport.Application\\Interfaces\\IAssignmentService.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Application\\Interfaces\\IAssignmentService.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\Interfaces\\IAssignmentService.cs",
               "RelativeToolTip": "ChatSupport.Application\\Interfaces\\IAssignmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T17:09:33.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T17:09:33.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "QueueServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Tests\\QueueServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Tests\\QueueServiceTests.cs",
               "RelativeDocumentMoniker": "ChatSupport.Tests\\QueueServiceTests.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Tests\\QueueServiceTests.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Tests\\QueueServiceTests.cs",
               "RelativeToolTip": "ChatSupport.Tests\\QueueServiceTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,37 +183,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QueueService.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Application\\Services\\QueueService.cs",
-              "RelativeDocumentMoniker": "ChatSupport.Application\\Services\\QueueService.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Application\\Services\\QueueService.cs",
-              "RelativeToolTip": "ChatSupport.Application\\Services\\QueueService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwC0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:55:11.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IQueueService.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Application\\Interfaces\\IQueueService.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\Interfaces\\IQueueService.cs",
               "RelativeDocumentMoniker": "ChatSupport.Application\\Interfaces\\IQueueService.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Application\\Interfaces\\IQueueService.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Application\\Interfaces\\IQueueService.cs",
               "RelativeToolTip": "ChatSupport.Application\\Interfaces\\IQueueService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:53:58.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T16:53:58.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\Constants\\Roles.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\Constants\\Roles.cs",
               "RelativeDocumentMoniker": "ChatSupport.Domain\\Constants\\Roles.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\Constants\\Roles.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\Constants\\Roles.cs",
               "RelativeToolTip": "ChatSupport.Domain\\Constants\\Roles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -233,48 +209,45 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ChatSession.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\Models\\ChatSession.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\Models\\ChatSession.cs",
               "RelativeDocumentMoniker": "ChatSupport.Domain\\Models\\ChatSession.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\Models\\ChatSession.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\Models\\ChatSession.cs",
               "RelativeToolTip": "ChatSupport.Domain\\Models\\ChatSession.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:49:32.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T16:49:32.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "ChatSupport.Domain\\Models\\Team.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\Models\\Team.cs",
+              "RelativeToolTip": "ChatSupport.Domain\\Models\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:48:39.133Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Team.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\Models\\Team.cs",
-              "RelativeDocumentMoniker": "ChatSupport.Domain\\Models\\Team.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\Models\\Team.cs",
-              "RelativeToolTip": "ChatSupport.Domain\\Models\\Team.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:48:39.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Agent.cs",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\Models\\Agent.cs",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\Models\\Agent.cs",
               "RelativeDocumentMoniker": "ChatSupport.Domain\\Models\\Agent.cs",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\Models\\Agent.cs",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\Models\\Agent.cs",
               "RelativeToolTip": "ChatSupport.Domain\\Models\\Agent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:47:46.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T16:47:46.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "ChatSupport.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
               "RelativeDocumentMoniker": "ChatSupport.Domain\\ChatSupport.Domain.csproj",
-              "ToolTip": "C:\\Users\\venka\\source\\repos\\ChatSupport.API\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
+              "ToolTip": "C:\\Users\\venka\\OneDrive\\Desktop\\MoneyBase\\ChatSupportSystem\\ChatSupport.Domain\\ChatSupport.Domain.csproj",
               "RelativeToolTip": "ChatSupport.Domain\\ChatSupport.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
